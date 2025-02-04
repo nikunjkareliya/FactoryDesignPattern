@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c4c4c435b91b5348bfbdcbef2bc0172, type: 3}
+  m_Name: LettersConfig
+  m_EditorClassIdentifier: 
+  locale: en
+  lettersMap:
+  - ID: a
+    value: A
+    letterSprite: {fileID: 21300000, guid: 240ffd1b27f0e8043a278fe419d5ef36, type: 3}
+  - ID: b
+    value: B
+    letterSprite: {fileID: 21300000, guid: 3c43b62ee23d227478e22a316b99c79e, type: 3}
+  - ID: c
+    value: C
+    letterSprite: {fileID: 21300000, guid: f5ccd09a9248ea94884097e164b6b261, type: 3}
+  - ID: d
+    value: D
+    letterSprite: {fileID: 21300000, guid: 56bffa94346f52e49bfae7c5435a4374, type: 3}
+  - ID: e
+    value: E
+    letterSprite: {fileID: 21300000, guid: 29dc4370b0dd4c14aa5e88ff27ddb2cf, type: 3}
+  - ID: f
+    value: F
+    letterSprite: {fileID: 21300000, guid: b5aec5725266f824185ffa4423bf98b0, type: 3}
+  - ID: g
+    value: G
+    letterSprite: {fileID: 21300000, guid: 1df3b5d97a504cf49a27c7709cb7b873, type: 3}
+  - ID: h
+    value: H
+    letterSprite: {fileID: 21300000, guid: 0a3a521c3102cb9409a7c4a5adfed7ef, type: 3}
+  - ID: i
+    value: I
+    letterSprite: {fileID: 21300000, guid: 0eff68021bbfe2c4db549cbe0fb6f741, type: 3}
+  - ID: j
+    value: J
+    letterSprite: {fileID: 21300000, guid: 09b5286d1b85f2e45b45c597e84a0207, type: 3}
+  - ID: k
+    value: K
+    letterSprite: {fileID: 0}
+  - ID: l
+    value: L
+    letterSprite: {fileID: 0}
+  - ID: m
+    value: M
+    letterSprite: {fileID: 0}
+  - ID: n
+    value: N
+    letterSprite: {fileID: 0}
+  - ID: o
+    value: O
+    letterSprite: {fileID: 0}
+  - ID: p
+    value: P
+    letterSprite: {fileID: 0}
+  - ID: q
+    value: Q
+    letterSprite: {fileID: 0}
+  - ID: r
+    value: R
+    letterSprite: {fileID: 0}
+  - ID: s
+    value: S
+    letterSprite: {fileID: 0}
+  - ID: t
+    value: T
+    letterSprite: {fileID: 0}
+  - ID: u
+    value: U
+    letterSprite: {fileID: 0}
+  - ID: v
+    value: V
+    letterSprite: {fileID: 0}
+  - ID: w
+    value: W
+    letterSprite: {fileID: 0}
+  - ID: x
+    value: X
+    letterSprite: {fileID: 0}
+  - ID: y
+    value: Y
+    letterSprite: {fileID: 0}
+  - ID: z
+    value: Z
+    letterSprite: {fileID: 0}
