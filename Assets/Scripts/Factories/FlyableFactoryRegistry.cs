@@ -13,15 +13,15 @@ namespace DesignPatterns.Factory
     [CreateAssetMenu(fileName = "FlyableFactoryRegistry", menuName = "ScriptableObjects/Factories/FlyableFactoryRegistry")]
     public class FlyableFactoryRegistry : ScriptableObject
     {
-        [SerializeField] private List<FlyableFactoryEntry> factories = new();         
+        [SerializeField] private List<FlyableFactoryEntry> _factories = new();         
 
         private Dictionary<FlyableType, FlyableFactory> _factoryLookup = new Dictionary<FlyableType, FlyableFactory>();
 
-        public void Initialize()
+        public void Init()
         {
             _factoryLookup.Clear();
 
-            foreach (var entry in factories)
+            foreach (var entry in _factories)
             {
                 if (!_factoryLookup.ContainsKey(entry.flyableType))
                 {
@@ -43,29 +43,11 @@ namespace DesignPatterns.Factory
 
         public IFlyable CreateRandomFlyable()
         {
-            int randomIndex = Random.Range(0, factories.Count);
-            var randomFactory = factories[randomIndex].factory;
+            int randomIndex = Random.Range(0, _factories.Count);
+            var randomFactory = _factories[randomIndex].factory;
 
             return randomFactory.CreateFlyable();
         }
-
-        //public FlyableConfig GetConfigForFlyable(IFlyable flyable)
-        //{
-        //    foreach (var entry in factories)
-        //    {
-
-        //        entry.factory.config.flyableType
-        //        if (flyable.GetType() == entry.factory.config.flyablePrefab.GetComponent<IFlyable>().GetType())
-        //        {
-        //            return entry.factory.config;
-        //        }
-        //    }
-
-        //    Debug.LogError("No matching config found for flyable.");
-        //    return null;
-        //}
-
-
 
     }
 

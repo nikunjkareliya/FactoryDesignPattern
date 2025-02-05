@@ -16,8 +16,9 @@ namespace DesignPatterns.Factory
         [SerializeField] private Transform _container;
         [SerializeField] private float _spawnFrequency = 0.5f;
 
-        private void Awake()
+        private void Start()
         {
+            _factoryRegistry.Init();
             StartSpawning();
         }
 
