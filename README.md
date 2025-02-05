@@ -6,7 +6,7 @@ The Factory Pattern is a creational design pattern that provides a single method
 
 The Abstract Factory Pattern extends the Factory Pattern by grouping multiple related factories under a single interface. Instead of creating individual objects, it provides a way to create families of related objects without specifying their concrete classes.
 
-
+![screenshot](Screenshots/Factory.png)
 
 
 ## Example
